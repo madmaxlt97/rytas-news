@@ -8,7 +8,6 @@ type NewsCardProps = {
 export default function NewsCard({ item }: NewsCardProps) {
   return (
     <article className="group overflow-hidden rounded-xl border border-white/10 bg-[#1C1C1F] transition-all duration-300 hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-black/20">
-      {/* Image */}
       <div className="relative aspect-[16/10] overflow-hidden">
         <Image
           src={item.image}
@@ -20,7 +19,6 @@ export default function NewsCard({ item }: NewsCardProps) {
         />
       </div>
 
-      {/* Content */}
       <div className="flex flex-col p-4 sm:p-5">
         <div className="mb-3 flex flex-wrap items-center gap-3 text-xs font-semibold uppercase tracking-wider">
           <span className="rounded-md bg-[#D62835] px-2.5 py-1 text-white">
