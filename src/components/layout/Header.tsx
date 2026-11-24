@@ -17,7 +17,7 @@ export default function Header() {
 
         <div className="hidden items-center gap-6 md:flex">
           <Link href={`/naujienos`}>Naujienos</Link>
-          <p>Komanda</p>
+          <Link href={`/komanda`}>Komanda</Link>
           <a
             href="https://rytasnews.substack.com/"
             target="_blank"
